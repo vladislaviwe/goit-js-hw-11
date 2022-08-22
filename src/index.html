@@ -8,12 +8,15 @@
   </head>
   <body>
     <div class="search-container">
-      <input class="search-container_input" type="text" id="search-box" pattern="^[a-zA-Z\s]+$">
-      <button class="search-container_button" type="button">Find your images</button>
-    </div> 
-    <div>
-      <ul class="images-list"></ul>
-    </div> 
+        <form class="form">
+          <input class="search-container_input" type="text" id="search-box">
+          <!-- pattern="^[a-zA-Z\s]+$" -->
+          <button class="search-container_button button" type="submit">Find your images</button>
+        </form> 
+    </div>
+    <div class="gallery">
+    </div>
+    <button type="button" class="load-more button">Load more</button>
     <script src="index.js" type="module"></script>
   </body>
 </html>
