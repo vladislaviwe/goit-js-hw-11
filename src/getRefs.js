@@ -7,3 +7,5 @@ export default function getRefs() {
         loadMoreButton: document.querySelector('.load-more'),
     };
 }
+
+// тест

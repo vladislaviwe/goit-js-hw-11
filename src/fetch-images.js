@@ -28,3 +28,6 @@ async function fetchImages(nameToSearch, page) {
 }
 
 export default { fetchImages };
+
+
+// тест
