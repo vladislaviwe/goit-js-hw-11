@@ -25,4 +25,3 @@ export default cardMarkup = (element) =>
 </div>  
 `
 
-// тест
