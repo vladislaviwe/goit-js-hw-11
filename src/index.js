@@ -76,8 +76,3 @@ function onFetch() {
         });
     })
 }
-
-// onscroll = function(){
-//     if(window.scrollY+1 >= document.documentElement.scrollHeight-document.documentElement.clientHeight) 
-//     Notiflix.Notify.info("We're sorry, but you've reached the end of search results.");
-// };
